@@ -9,7 +9,7 @@
         <meta name="keywords" content="chiligarlic, glyus, shortlink, shortener, linker">
         <meta name="description" content="Yet another link shortener with a litle bit twist">
         <meta name="author" content="glyus">
-        
+
         <!-- Latest compiled and minified JQuery -->
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
         <!-- Latest compiled and minified CSS -->
@@ -27,9 +27,9 @@
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
             <form ng-submit="create()">
-                <input class="glyus" type="text" ng-model="url" autofocus placeholder="Paste URL here">
+                <input class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here">
                 <input class="glyus" type="submit" value="G l y u s">
-                <input class="new" type="text" >
+                <input class="new" ng-model="new" type="text" >
             </form>
         </div>
     </body>
