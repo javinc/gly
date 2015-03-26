@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="glyus">
+    <head>
+        <title>Glyus</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="chiligarlic, glyus, shortlink, shortener, linker">
+        <meta name="description" content="Yet another link shortener with a litle bit twist">
+        <meta name="author" content="glyus">
+        
+        <!-- Latest compiled and minified JQuery -->
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        
+        <link rel="stylesheet" href="main.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div ng-controller="ShorterController" align="center" id="container">
+            <form ng-submit="create()">
+                <input class="glyus" type="text" ng-model="url" autofocus placeholder="Paste URL here">
+                <input class="glyus" type="submit" value="G l y u s">
+                <input class="new" type="text" >
+            </form>
+        </div>
+    </body>
+</html>
