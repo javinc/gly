@@ -26,12 +26,15 @@
     </head>
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
-            <h1>G l y . <span>u s</span></h1>
+            <h1>
+                <span id="total_text">0</span>
+                G l y . <span class="us">u s</span>
+            </h1>
             <form ng-submit="create()">
                 <input class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here">
             </form>
             <p class="new">{{new}}</p>
-            <p>{{clicks}}</p>
+            <p id="clicks_text" hidden>clicks <span class="badge">{{clicks}}</span></p>
         </div>
     </body>
 </html>

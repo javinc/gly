@@ -47,9 +47,19 @@ h1 span {
 }
 
 .clicks {
+    color: #8C8C8C;
     background: none;
     border: none;
     outline: 0;
     margin: 40px auto 0;
     text-align: center;
+}
+
+#total_text {
+    color: rgb(200, 122, 75);
+    font-size: 10px;
+    position: absolute;
+    text-align: right;
+    width: 292px;
+    margin-top: 12px;
 }
