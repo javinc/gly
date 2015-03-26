@@ -2,17 +2,25 @@ body {
     background: #eee;
 }
 
+h1 {
+    font-size: 70px;
+    color: #22475E;
+}
+h1 span {
+    color: #8C8C8C;
+}
+
 #container {
     position: absolute;
-    top: 45%;
+    top: 30%;
     text-align: center;
     width: 100%;
 }
 
 .glyus[type='text'] {
-    padding: 10px;
+    padding: 10px 20px;
     width: 70%;
-    max-width: 400px;
+    max-width: 600px;
 }
 .glyus[type='submit'] {
     padding: 10px;
