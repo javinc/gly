@@ -11,7 +11,7 @@ control()
 
 /* Set Paths
 -------------------------------*/
-->setApplication('front')
+->setApplication('Api')
 
 /* Set Paths
 -------------------------------*/

@@ -7,7 +7,7 @@
  * distributed with this package.
  */
 
-namespace Front\Page;
+namespace Api\Page;
 
 /**
  * The base class for any class that defines a view.
@@ -17,7 +17,7 @@ namespace Front\Page;
  * @vendor Openovate
  * @package Framework
  */
-class Index extends \Page 
+class Sample extends \Page 
 {
 	/* Constants
 	-------------------------------*/
@@ -25,13 +25,11 @@ class Index extends \Page
 	-------------------------------*/
 	/* Protected Properties
 	-------------------------------*/
-	protected $title = 'Front';
-
 	/* Public Methods
 	-------------------------------*/
 	public function getVariables()
 	{ 
-		return array('x' => 700, 'y' => 500);
+		return array('sample' => array(100, 200, 300));
 	}
 
 
