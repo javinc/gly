@@ -29,7 +29,7 @@ class Index extends \Page
 	-------------------------------*/
 	public function getVariables()
 	{ 
-		return array('x' => 700, 'y' => 500);
+		return array('error' => false);
 	}
 
 

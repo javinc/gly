@@ -67,42 +67,8 @@ class Page extends Eden\Block\Base
 	 */
 	public function render() 
 	{
-        // $messages = array();
-        // if(isset($_SESSION['messages'])) {
-        //     $messages = $_SESSION['messages'];
-        //     $_SESSION['messages'] = array();
-        // }
-		
-		// $path = control()->path('template');
-		// $template = $this->getTemplate();
-		
-		// $helpers = $this->getHelpers();
-		
-		// $head = array_merge($helpers, $this->head);
-		// $body = array_merge($helpers, $this->getVariables());
-		// $foot = array_merge($helpers, $this->foot);
-		
-		// $file = $path.'/head.'.static::TEMPLATE_EXTENSION;
-		// $head = control()->trigger('head')->template($file, $head);
-		
-		// $file = $path.$template;
-		// $body = control()->trigger('body')->template($file, $body);
-		
-		// $file = $path.'/foot.'.static::TEMPLATE_EXTENSION;
-		// $foot = control()->trigger('foot')->template($file, $foot);
-		
-		// $page = array_merge($helpers, array(
-		// 	'meta' 			=> $this->meta,
-		// 	'title'			=> $this->title,
-		// 	'class'			=> $this->id,
-		// 	'head'			=> $head,
-		// 	'messages'		=> $messages,
-		// 	'body'			=> $body,
-		// 	'foot'			=> $foot));
-		
-		// //page
-		// $file = $path.'/page.'.static::TEMPLATE_EXTENSION;
-		// return control()->template($file, $page);
+		header('Content-Type: application/json');
+		header("Access-Control-Allow-Origin: *");
 
 		die(json_encode($this->getVariables()));
 	}

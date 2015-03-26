@@ -1,3 +1,29 @@
+<?php
+    const API_CLICK = 'http://api.glyus.dev/click';
+
+    if(isset($_SERVER['REQUEST_URI'])) {
+        $new = $_SERVER['REQUEST_URI'];
+
+        function httpGet($url) {
+            $ch = curl_init();  
+         
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $output = curl_exec($ch);
+            curl_close($ch);
+
+            return $output;
+        }
+         
+        $res = json_decode(httpGet(API_CLICK . $new), true);
+        $loc = '/';
+        if(!isset($res['error'])) {
+            $loc = $res['url'];
+        }
+
+        header('Location: ' . $loc);
+    }
+?>
 <!doctype html>
 <html ng-app="glyus">
     <head>
