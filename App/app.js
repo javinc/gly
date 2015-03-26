@@ -35,9 +35,6 @@ angular.module('glyus', [])
     }, 1000)
 }]);
 
-var host = 'glyus.dev';
-var api = 'http://api.glyus.dev';
-
 var debug = function(x) {
 	console.log(x)
 }
