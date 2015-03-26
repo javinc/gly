@@ -1,5 +1,5 @@
 <?php
-    const API_CLICK = 'http://api.glyus.dev/click';
+    include_once('config.php');
 
     if(isset($_SERVER['REQUEST_URI'])) {
         $new = $_SERVER['REQUEST_URI'];
