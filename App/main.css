@@ -4,6 +4,7 @@ body {
 
 h1 {
     font-size: 70px;
+    font-weight: bold;
     font-family: serif;
     color: #22475E;
 }
