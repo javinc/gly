@@ -58,7 +58,7 @@
                 G l y . <span class="us">u s</span>
             </h1>
             <form ng-submit="create()">
-                <input class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here">
+                <input class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here to make it Simple">
             </form>
             <!-- <p class="new">{{new}}</p> -->
             <br />
