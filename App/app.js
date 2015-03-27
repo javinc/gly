@@ -37,7 +37,7 @@ angular.module('glyus', [])
 }]);
 
 var debug = function(x) {
-	console.log(x)
+	// console.log(x)
 }
 
 var getById = function(selector) {
