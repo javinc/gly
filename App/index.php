@@ -33,7 +33,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="chiligarlic, glyus, shortlink, shortener, linker">
-        <meta name="description" content="Just another link shortener with a litle bit twist">
+        <meta name="description" content="Just another link shortener with a litle bit of twist">
         <meta name="author" content="glyus">
 
         <!-- Latest compiled and minified JQuery -->
