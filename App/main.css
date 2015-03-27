@@ -4,8 +4,9 @@ body {
 
 h1 {
     font-size: 70px;
-    color: #22475E;
     font-weight: bold;
+    font-family: serif;
+    color: #22475E;
 }
 h1 span {
     color: #8C8C8C;
@@ -61,6 +62,6 @@ h1 span {
     font-size: 10px;
     position: absolute;
     text-align: right;
-    width: 305px;
+    width: 276px;
     margin-top: 12px;
 }
