@@ -9,8 +9,9 @@ angular.module('glyus', [])
 	            debug('success!')
 	            debug(data)
 
-	            $scope.new = host + '/' + data.new;
-	            $scope.clicks = data.clicks;
+	            $scope.url = host + '/' + data.new;
+                $scope.clicks = data.clicks;
+	            $scope.new = data.new;
 	            getById('clicks_text').hidden = false;
 	        }).
 	        error(function(data) {

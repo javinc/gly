@@ -1,7 +1,7 @@
 <?php
     include_once('config.php');
 
-    if(isset($_SERVER['REQUEST_URI'])) {
+    if(isset($_SERVER['REQUEST_URI']) && trim($_SERVER['REQUEST_URI'], '/') != '') {
         $new = $_SERVER['REQUEST_URI'];
 
         function httpGet($url) {
@@ -48,16 +48,31 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
         
         <link rel="stylesheet" href="main.css">
+        <script src="config.js"></script>
         <script src="app.js"></script>
     </head>
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
+            <h1>
+                <span id="total_text">0</span>
+                G l y . <span class="us">u s</span>
+            </h1>
             <form ng-submit="create()">
                 <input class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here">
-                <input class="glyus" type="submit" value="G l y">
             </form>
-            <p class="new">{{new}}</p>
-            <p>{{clicks}}</p>
+            <!-- <p class="new">{{new}}</p> -->
+            <br />
+            <p id="clicks_text" hidden>clicks <span class="badge">{{clicks}}</span></p>
         </div>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-53683442-4', 'auto');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>

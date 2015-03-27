@@ -33,6 +33,11 @@ class Create extends \Page
 		$url = $url['get']['url'];
 		$data = array('url' => $url, 'new' => $new, 'clicks' => 0);
 
+		// check same domain
+		if (preg_match('/' . ltrim($_SERVER['HTTP_HOST'], 'api.') . '/', $url)) {
+		    return;
+		}
+
 		// check if new exists
 		$link = control()->database()->search('link')->filterByUrl($url)->getRow();
 		if(!empty($link)) {
