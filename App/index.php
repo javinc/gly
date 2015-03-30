@@ -28,7 +28,7 @@
 <!doctype html>
 <html ng-app="glyus">
     <head>
-        <title>Gly a easy to remember URL shortener</title>
+        <title>Gly - Easy to remember URL shortener</title>
 	<link rel="shortcut icon" type="image/png" href="/icon.png"/>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -64,8 +64,16 @@
             <!-- <p class="new">{{new}}</p> -->
             <br />
             <p id="clicks_text" hidden>clicks <span class="badge">{{clicks}}</span></p>
+<br /><br /><br /><br /><br />	
+<div
+  class="fb-like"
+  data-share="true"
+data-action="like"
+  data-layout="button_count"
+  data-show-faces="true">
         </div>
-
+</div>
+	<a href="mailto:dev@chiligarlic.com"><img src="http://chiligarlic.com/img/favicon.png" alt="ChiliGarlic"></a>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
