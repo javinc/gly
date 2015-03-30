@@ -8,9 +8,15 @@ angular.module('glyus', [])
 	        success(function(data) {
 	            debug('success!')
 	            debug(data)
-
+		    
+		    if(data == null) {
+			return;
+                    }
+  
 	            $scope.url = host + '/' + data.new;
-                $scope.clicks = data.clicks;
+		    getById('gly_text').select()
+    
+                    $scope.clicks = data.clicks;
 	            $scope.new = data.new;
 	            getById('clicks_text').hidden = false;
 	        }).
@@ -47,4 +53,4 @@ var getById = function(selector) {
 function urlChecker(s) {    
       var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
       return regexp.test(s);    
- }
+}

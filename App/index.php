@@ -34,7 +34,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="chiligarlic, gly, shortlink, shortener, linker">
-        <meta name="description" content="Gly a easy to remember URL shortener, Just another link shortener with a litle bit of twist">
+        <meta name="description" content="Gly an easy to remember URL shortener, Just another link shortener with a litle bit of twist">
         <meta name="author" content="chiligarlic">
 
         <!-- Latest compiled and minified JQuery -->
@@ -59,7 +59,7 @@
 		<span id="total_text">0</span>
             </h1>
             <form ng-submit="create()">
-                <input class="glyus" type="text" ng-model="url" autofocus required placeholder="Lets simlpify your URL">
+                <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Lets simlpify your URL">
             </form>
             <!-- <p class="new">{{new}}</p> -->
             <br />
