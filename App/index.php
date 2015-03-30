@@ -27,14 +27,14 @@
 <!doctype html>
 <html ng-app="glyus">
     <head>
-        <title>Glyus</title>
-
+        <title>Gly a easy to remember URL shortener</title>
+	<link rel="shortcut icon" type="image/png" href="/icon.png"/>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="chiligarlic, glyus, shortlink, shortener, linker">
-        <meta name="description" content="Just another link shortener with a litle bit of twist">
-        <meta name="author" content="glyus">
+        <meta name="description" content="Gly a easy to remember URL shortener, Just another link shortener with a litle bit of twist">
+        <meta name="author" content="chiligarlic">
 
         <!-- Latest compiled and minified JQuery -->
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -47,15 +47,16 @@
         <!-- Latest compiled and minified Angular -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
         
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="app.css">
         <script src="config.js"></script>
         <script src="app.js"></script>
     </head>
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
-            <h1>
-                <span id="total_text">0</span>
-                G l y . <span class="us">u s</span>
+	    <h1>
+		<img src="/icon.png">
+                G l y
+		<span id="total_text">0</span>
             </h1>
             <form ng-submit="create()">
                 <input class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here to make it Simple">
