@@ -54,7 +54,6 @@
         <div ng-controller="ShorterController" align="center" id="container">
     	    <h1>
                 <img src="header.png">
-        		<span id="total_text">0</span>
             </h1>
             <form ng-submit="create()">
                 <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here">
@@ -65,6 +64,7 @@
             <div class="fb-like" data-action="like" data-layout="button_count" data-show-faces="true"></div>
         </div>
         <a href="mailto:dev@chiligarlic.com">
+            <span id="total_text">0</span>
             <img src="http://chiligarlic.com/img/favicon.png" alt="ChiliGarlic">
         </a>
 

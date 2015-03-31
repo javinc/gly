@@ -16,62 +16,14 @@ a {
     position: absolute;
     bottom: 10px;
     text-align: center;
-    /*left: 45%;*/
-    right: 1%;
+    left: 45%;
+    right: 45%;
     opacity: 0;
     -webkit-transition: all 1s; /* Safari */
     transition: all 1s;
-
 }
-a:hover { opacity: 1; }
+a:hover { opacity: 1; text-decoration: none; }
 a img { width: 20px; height: 22px;}
-
-a {
-  -moz-animation-duration: 2s;
-  -moz-animation-name: blink;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-direction: alternate;
-  
-  -webkit-animation-duration: 2s;
-  -webkit-animation-name: blink;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  
-  animation-duration: 2s;
-  animation-name: blink;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@-moz-keyframes blink {
-  from {
-    opacity: 1;
-  }
-  
-  to {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes blink {
-  from {
-    opacity: 1;
-  }
-  
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes blink {
-  from {
-    opacity: 1;
-  }
-  
-  to {
-    opacity: 0;
-  }
-}
 
 #container {
     position: absolute;
@@ -128,8 +80,6 @@ a {
 #total_text {
     color: #999;
     font-size: 10px;
-    position: absolute;
-    margin: 108px -14px;
 }
 
 #clicks_text {
