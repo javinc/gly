@@ -38,13 +38,12 @@
         <meta name="description" content="Gly an easy to remember URL simplifier">
         <meta name="author" content="chiligarlic">
 
+        <meta property="og:url" content="http://gly.us" />
         <meta property="og:title" content="Gly - Easy to remember URL simplifier" />
-        <meta property="og:site_name" content="Gly"/>
-        <meta property="og:url" content="http://gly.us/" />
         <meta property="og:description" content="Gly an easy to remember URL simplifier" />
+        <meta property="og:site_name" content="Gly"/>
         <meta property="og:image" content="http://gly.us/banner.png" />
         <meta property="fb:app_id" content="470941366421345" />
-        <meta property="og:type" content="website" />
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
