@@ -26,7 +26,7 @@
     }
 ?>
 <!doctype html>
-<html ng-app="glyus">
+<html ng-app="glyus" prefix="og: http://ogp.me/ns#">
     <head>
         <title>Gly - Easy to remember URL shortener</title>
 	<link rel="shortcut icon" type="image/png" href="/icon.png"/>
@@ -36,6 +36,14 @@
         <meta name="keywords" content="chiligarlic, gly, shortlink, shortener, linker">
         <meta name="description" content="Gly an easy to remember URL shortener, Just another link shortener with a litle bit of twist">
         <meta name="author" content="chiligarlic">
+
+<meta property="og:title" content="Gly - Easy to remember URL shortener" />
+<meta property="og:site_name" content="Gly"/>
+<meta property="og:url" content="http://gly.us/" />
+<meta property="og:description" content="Gly an easy to remember URL shortener" />
+<meta property="og:image" content="http://gly.us/logo.png" />
+<meta property="fb:app_id" content="470941366421345" />
+<meta property="og:type" content="website" />
 
         <!-- Latest compiled and minified JQuery -->
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -59,7 +67,7 @@
 		<span id="total_text">0</span>
             </h1>
             <form ng-submit="create()">
-                <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Lets simlpify your URL">
+                <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Let's simlpify your URL">
             </form>
             <!-- <p class="new">{{new}}</p> -->
             <br />
@@ -67,7 +75,6 @@
 <br /><br /><br /><br /><br />	
 <div
   class="fb-like"
-  data-share="true"
 data-action="like"
   data-layout="button_count"
   data-show-faces="true">
