@@ -62,7 +62,7 @@
             <br />
             <p id="clicks_text">clicks <span class="badge">{{clicks}}</span></p>
             <br /><br /><br />	
-            <div class="fb-like" data-action="like" data-layout="button_count" data-show-faces="true"></div>
+            <div class="fb-like" data-share="true" data-action="like" data-action="like" data-layout="button_count" data-show-faces="true"></div>
         </div>
         <a href="mailto:dev@chiligarlic.com">
             <span id="total_text">0</span>
