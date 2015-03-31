@@ -43,6 +43,7 @@
         <meta property="og:description" content="Its just another URL shortener that easy to remember with a little bit fun. Enjoy Glying!" />
         <meta property="og:site_name" content="Gly"/>
         <meta property="og:image" content="http://gly.us/banner.png" />
+        <meta property="og:type" content="website" />
         <meta property="fb:app_id" content="470941366421345" />
 
         <!-- Latest compiled and minified CSS -->
