@@ -46,21 +46,11 @@
         <meta property="fb:app_id" content="470941366421345" />
         <meta property="og:type" content="website" />
 
-        <!-- Latest compiled and minified JQuery -->
-        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <!-- Latest compiled and minified Angular -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-        
-        <!-- App Script -->
         <link rel="stylesheet" href="app.css">
-        <script src="config.js"></script>
-        <script src="app.js"></script>
     </head>
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
@@ -79,5 +69,15 @@
         <a href="mailto:dev@chiligarlic.com">
             <img src="http://chiligarlic.com/img/favicon.png" alt="ChiliGarlic">
         </a>
+
+        <!-- Latest compiled and minified JQuery -->
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <!-- App Script -->
+        <script src="config.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
