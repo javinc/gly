@@ -42,7 +42,7 @@
         <meta property="og:site_name" content="Gly"/>
         <meta property="og:url" content="http://gly.us/" />
         <meta property="og:description" content="Gly an easy to remember URL simplifier" />
-        <meta property="og:image" content="http://gly.us/logo.png" />
+        <meta property="og:image" content="http://gly.us/banner.png" />
         <meta property="fb:app_id" content="470941366421345" />
         <meta property="og:type" content="website" />
 
