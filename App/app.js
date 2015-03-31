@@ -1,7 +1,7 @@
 angular.module('glyus', [])
 .controller('ShorterController', ['$http', '$scope', function($http, $scope) {
     $scope.create = function() {
-        getById('clicks_text').opacity = 0;
+        getById('clicks_text').style.opacity = 0;
         if($scope.url != undefined && $scope.url != '') {
             debug('creating...')
             $http.get(api + '/create?url=' + $scope.url).
@@ -18,7 +18,7 @@ angular.module('glyus', [])
                 $scope.new = data.new;
 		        
                 getById('gly_text').select()
-	            getById('clicks_text').opacity = 1;
+	            getById('clicks_text').style.opacity = 1;
 	        }).
 	        error(function(data) {
 	            debug('error!')
