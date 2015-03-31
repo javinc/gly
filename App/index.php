@@ -28,7 +28,7 @@
 <!doctype html>
 <html ng-app="glyus" prefix="og: http://ogp.me/ns#">
     <head>
-        <title>Gly - Easy to remember URL simplifier</title>
+        <title>Gly - Memorable URL shortener</title>
     	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     
         <meta charset="utf-8">
