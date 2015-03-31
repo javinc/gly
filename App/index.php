@@ -46,10 +46,7 @@
         <meta property="fb:app_id" content="470941366421345" />
         <meta property="og:type" content="website" />
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <!-- App Style -->
         <link rel="stylesheet" href="app.css">
     </head>
     <body>
