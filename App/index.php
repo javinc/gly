@@ -54,8 +54,9 @@
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
     	    <h1>
-        		<img src="/icon.png">Gly
-        		<span id="total_text">0</span>
+                <img src="/logo.png">
+        		<!-- <img src="/icon.png">Gly
+        		<span id="total_text">0</span> -->
             </h1>
             <form ng-submit="create()">
                 <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here">
