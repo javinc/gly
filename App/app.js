@@ -1,7 +1,7 @@
 angular.module('glyus', [])
 .controller('ShorterController', ['$http', '$scope', function($http, $scope) {
     $scope.create = function() {
-        getById('clicks_text').hidden = true;
+        getById('clicks_text').opacity = 0;
         if($scope.url != undefined && $scope.url != '') {
             debug('creating...')
             $http.get(api + '/create?url=' + $scope.url).
