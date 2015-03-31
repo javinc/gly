@@ -58,7 +58,7 @@
         		<span id="total_text">0</span>
             </h1>
             <form ng-submit="create()">
-                <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Let's simlpify your URL">
+                <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Paste URL here">
             </form>
             <br />
             <p id="clicks_text">clicks <span class="badge">{{clicks}}</span></p>
