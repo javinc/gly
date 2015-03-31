@@ -28,20 +28,20 @@
 <!doctype html>
 <html ng-app="glyus" prefix="og: http://ogp.me/ns#">
     <head>
-        <title>Gly - Easy to remember URL shortener</title>
-    	<link rel="shortcut icon" type="image/png" href="/icon.png"/>
+        <title>Gly - Easy to remember URL simplifier</title>
+    	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="chiligarlic, gly, shortlink, shortener, linker">
-        <meta name="description" content="Gly an easy to remember URL shortener">
+        <meta name="keywords" content="chiligarlic, gly, shortlink, simplifier, linker, rememberable, easy">
+        <meta name="description" content="Gly an easy to remember URL simplifier">
         <meta name="author" content="chiligarlic">
 
-        <meta property="og:title" content="Gly - Easy to remember URL shortener" />
+        <meta property="og:title" content="Gly - Easy to remember URL simplifier" />
         <meta property="og:site_name" content="Gly"/>
         <meta property="og:url" content="http://gly.us/" />
-        <meta property="og:description" content="Gly an easy to remember URL shortener" />
+        <meta property="og:description" content="Gly an easy to remember URL simplifier" />
         <meta property="og:image" content="http://gly.us/logo.png" />
         <meta property="fb:app_id" content="470941366421345" />
         <meta property="og:type" content="website" />
@@ -54,8 +54,7 @@
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
     	    <h1>
-                <!-- <img src="/logo.png"> -->
-        		<img src="/icon.png">Gly
+                <img src="header.png">
         		<span id="total_text">0</span>
             </h1>
             <form ng-submit="create()">
