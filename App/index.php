@@ -39,7 +39,7 @@
         <meta name="author" content="chiligarlic">
 
         <meta property="og:url" content="http://gly.us" />
-        <meta property="og:title" content="Gly - Easy to remember URL simplifier" />
+        <meta property="og:title" content="Gly a Memorable URL shortener" />
         <meta property="og:description" content="Its just another URL shortener that easy to remember with a little bit of fun. Enjoy Glying!" />
         <meta property="og:site_name" content="Gly"/>
         <meta property="og:image" content="http://gly.us/banner.png" />
