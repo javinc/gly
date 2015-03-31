@@ -61,8 +61,8 @@
                 <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Let's simlpify your URL">
             </form>
             <br />
-            <p id="clicks_text" hidden>clicks <span class="badge">{{clicks}}</span></p>
-            <br /><br /><br /><br /><br />	
+            <p id="clicks_text">clicks <span class="badge">{{clicks}}</span></p>
+            <br /><br /><br />	
             <div class="fb-like" data-action="like" data-layout="button_count" data-show-faces="true"></div>
         </div>
         <a href="mailto:dev@chiligarlic.com">

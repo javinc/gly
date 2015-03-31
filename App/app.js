@@ -18,7 +18,7 @@ angular.module('glyus', [])
                 $scope.new = data.new;
 		        
                 getById('gly_text').select()
-	            getById('clicks_text').hidden = false;
+	            getById('clicks_text').opacity = 1;
 	        }).
 	        error(function(data) {
 	            debug('error!')
