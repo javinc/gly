@@ -11,6 +11,23 @@ h1 {
 h1 span {
     color: #8C8C8C;
 }
+h1 img {
+    height: 100px;
+    margin-top: -25px;
+}
+
+a {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 45%;
+    right: 45%;
+    opacity: 0;
+    -webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+}
+a:hover { opacity: 1; }
+a img { width: 20px; height: 22px;}
 
 #container {
     position: absolute;
@@ -70,23 +87,3 @@ h1 span {
     position: absolute;
     margin: 108px -14px;
 }
-
-h1 img {
-    height: 100px;
-    margin-top: -25px;
-}
-
-a {
-    position: absolute;
-    bottom: 10px;
-    text-align: center;
-    left: 45%;
-    right: 45%;
-    opacity: 0;
--webkit-transition: all 1s; /* Safari */
-    transition: all 1s;
-}
-a:hover {
-    opacity: 1;
-}
-a img { width: 20px; height: 22px;}
