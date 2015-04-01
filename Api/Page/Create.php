@@ -30,7 +30,18 @@ class Create extends \Page
 	public function getVariables()
 	{
 		$url = control()->registry();
-		$url = $url['get']['url'];
+		$url = $url['post']['url'];
+
+		$json = file_get_contents('php://input');
+		$obj = (array) json_decode($json);
+		if(!isset($obj['url']) || $obj['url'] == '') {
+			return array(
+				'error' => true,
+				'msg' => 'url field not defined');
+		}
+
+		$url = $obj['url'];
+
 		$data = array('url' => $url, 'new' => $new, 'clicks' => 0);
 
 		// check same domain
@@ -62,7 +73,7 @@ class Create extends \Page
 
 		$link = control()->database()->search('link')->filterByNew($new)->getRow();
 		if(!empty($link)) {
-			$new = self::getNew();
+			$new = self::genNew();
 		}
 
 		return $new;

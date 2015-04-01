@@ -60,7 +60,10 @@
                 <input id="gly_text" class="glyus" type="text" ng-model="url" placeholder=" Simplify your URL" autofocus required>
             </form>
             <br />
-            <p id="clicks_text">clicks <span class="badge">{{clicks}}</span></p>
+            <!-- <span class="label label-info">New</span> -->
+            <p id="clicks_text">
+                <span class="label label-info">{{clicks}} <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span></span>
+            </p>
             <br /><br /><br />	
             <div class="fb-like" data-share="true" data-action="like" data-action="like" data-layout="button_count" data-show-faces="true"></div>
         </div>

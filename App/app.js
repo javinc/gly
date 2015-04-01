@@ -4,16 +4,16 @@ angular.module('glyus', [])
         getById('clicks_text').style.opacity = 0;
         if($scope.url != undefined && $scope.url != '') {
             debug('creating...')
-            $http.get(api + '/create?url=' + $scope.url).
+            $http.post(api + '/create', {url: $scope.url}).
 	        success(function(data) {
 	            debug('success!')
 	            debug(data)
 		    
-                if(data == null) {
+                if(data == null || data == undefined || data.length == 0) {
                     return;
                 }
   
-	            $scope.url = host + '/' + data.new;
+	            $scope.url = 'http://' + host + '/' + data.new;
                 $scope.clicks = data.clicks;
                 $scope.new = data.new;
 		        
@@ -43,7 +43,7 @@ angular.module('glyus', [])
 }]);
 
 var debug = function(x) {
-	// console.log(x)
+	console.log(x)
 }
 
 var getById = function(selector) {

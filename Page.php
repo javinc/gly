@@ -69,6 +69,7 @@ class Page extends Eden\Block\Base
 	{
 		header('Content-Type: application/json');
 		header("Access-Control-Allow-Origin: *");
+		header("Access-Control-Allow-Headers: Origin, Content-Type, Accept");
 
 		die(json_encode($this->getVariables()));
 	}
