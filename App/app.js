@@ -43,7 +43,9 @@ angular.module('glyus', [])
 }]);
 
 var debug = function(x) {
-	console.log(x)
+    if(devMode) {
+    	console.log(x)
+    }
 }
 
 var getById = function(selector) {
