@@ -42,11 +42,18 @@ class Create extends \Page
 
 		$url = $obj['url'];
 
-		$data = array('url' => $url, 'new' => $new, 'clicks' => 0);
+		$data = array('url' => $url, 'new' => '', 'clicks' => 0);
 
 		// check same domain
 		if (preg_match('/' . ltrim($_SERVER['HTTP_HOST'], 'api.') . '/', $url)) {
-		    return;
+			$result = explode('/', $url); 
+    		$link = control()->database()->search('link')->filterByNew(end($result))->getRow();
+			if(!empty($link)) {
+				$data['new'] = $link['new'];
+				$data['clicks'] = $link['clicks'];
+				
+				return $data;
+			}
 		}
 
 		// check if new exists
