@@ -57,7 +57,7 @@
                 <img src="header.png">
             </h1>
             <form ng-submit="create()">
-                <input id="gly_text" class="glyus" type="text" ng-model="url" autofocus required placeholder="Simplify your URL">
+                <input id="gly_text" class="glyus" type="text" ng-model="url" placeholder=" Simplify your URL" autofocus required>
             </form>
             <br />
             <p id="clicks_text">clicks <span class="badge">{{clicks}}</span></p>
