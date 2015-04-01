@@ -35,12 +35,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="chiligarlic, gly, shortlink, simplify, linker, memorable, easy, shortener, simplifier, gyling">
-        <meta name="description" content="Its just another URL shortener that easy to remember with a little bit of fun. Enjoy Glying!">
+        <meta name="description" content="Its just another URL shortener that's easy to remember with a little bit of fun. Enjoy Glying!">
         <meta name="author" content="chiligarlic">
 
         <meta property="og:url" content="http://gly.us" />
         <meta property="og:title" content="Gly a memorable URL shortener" />
-        <meta property="og:description" content="Its just another URL shortener that easy to remember with a little bit of fun. Enjoy Glying!" />
+        <meta property="og:description" content="Its just another URL shortener that's easy to remember with a little bit of fun. Enjoy Glying!" />
         <meta property="og:site_name" content="Gly"/>
         <meta property="og:image" content="http://gly.us/banner.png" />
         <meta property="og:type" content="website" />
