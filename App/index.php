@@ -34,8 +34,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="chiligarlic, gly, shortlink, simplifier, linker, rememberable, easy">
-        <meta name="description" content="Gly an easy to remember URL simplifier">
+        <meta name="keywords" content="chiligarlic, gly, shortlink, simplify, linker, memorable, easy, shortener, simplifier, gyling">
+        <meta name="description" content="Its just another URL shortener that easy to remember with a little bit of fun. Enjoy Glying!">
         <meta name="author" content="chiligarlic">
 
         <meta property="og:url" content="http://gly.us" />
