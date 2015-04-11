@@ -42,20 +42,25 @@ a img { width: 20px; height: 22px;}
     outline: none;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
+    -webkit-transition: all .5s; /* Safari */
+    transition: all .5s;
 }
 .glyus[type='text']:focus {
     border: 1px solid rgb(255, 165, 0);
 }
 .glyus[type='submit'] {
-  border: 1px solid rgb(64, 171, 171);
-  background: rgb(75, 197, 197);
-  padding: 15px 30px;
-  border-radius: 5px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  color: white;
-  font-weight: bold;
-  margin-left: -4px;
+    border: 1px solid rgb(64, 171, 171);
+    background: rgb(75, 197, 197);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    color: white;
+    font-weight: bold;
+    margin-left: -4px;
+    -webkit-transition: all .5s; /* Safari */
+    transition: all .5s;
+    outline: none;
 }
 .glyus[type='submit']:hover {
     background: rgb(255, 165, 0);
