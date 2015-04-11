@@ -58,6 +58,7 @@
             </h1>
             <form ng-submit="create()">
                 <input id="gly_text" class="glyus" type="text" ng-model="url" placeholder=" Simplify your URL" autofocus required>
+                <input type="submit" value="Go" />
             </form>
             <br />
             <!-- <span class="label label-info">New</span> -->
