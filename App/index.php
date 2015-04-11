@@ -54,7 +54,7 @@
     <body>
         <div ng-controller="ShorterController" align="center" id="container">
     	    <h1>
-                <img src="header.png">
+                <img src="banner.png" width="259">
             </h1>
             <form ng-submit="create()">
                 <input id="gly_text" class="glyus" type="text" ng-model="url" placeholder=" Simplify your URL" autofocus required>
@@ -65,11 +65,11 @@
             <p id="clicks_text">
                 <span class="label label-info">{{clicks}} <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span></span>
             </p>
-            <br /><br /><br />	
+            <br />
             <div class="fb-like" data-share="true" data-action="like" data-action="like" data-layout="button_count" data-show-faces="true"></div>
         </div>
         <a href="mailto:dev@chiligarlic.com">
-            <span id="total_text">0</span>
+            <!-- <span id="total_text">0</span> -->
             <img src="http://chiligarlic.com/img/favicon.png" alt="ChiliGarlic">
         </a>
 
