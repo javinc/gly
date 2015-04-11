@@ -37,10 +37,10 @@ class Click extends \Page
 		// check if new exists
 		$link = control()->database()->search('link')->filterByNew($new)->getRow();
 		if(!empty($link)) {
-			control()->database()->updateRows('link', array(
-				'clicks' => ++$link['clicks']), array(
-				'id' => $link['id']));
-			
+			$filter[] = array('id=%s', $link['id']); 
+			$x = control()->database()->updateRows('link', array(
+				'clicks' => ++$link['clicks']), $filter);
+
 			return $link;
 		}
 
