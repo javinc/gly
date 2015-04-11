@@ -35,9 +35,9 @@ angular.module('glyus', [])
     	$http.get(api + '/stats').
         success(function(data) {
             debug('success!')
-            debug(data.total)
+            debug(data)
 
-            getById('total_text').innerHTML = data.total;
+            //getById('total_text').innerHTML = data.total.urls;
         })
     }, 1000)
 }]);

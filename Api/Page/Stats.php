@@ -32,9 +32,16 @@ class Stats extends \Page
 	public function getVariables()
 	{
 		// check if new exists
-		$links = control()->database()->search('link')->setColumns('count(id) as total')->getRow();
+		$links = control()->database()->search('link')->setColumns('clicks')->getRows();
+		$hits = 0;
 
-		return $links;
+		foreach($links as $link) 
+		    $hits += $link['clicks'];
+
+		return array('total' => array(
+		    'hits' => $hits,
+		    'urls' => count($links)
+		));
 	}
 
 	/* Protected Methods
