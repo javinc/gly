@@ -55,10 +55,11 @@ a img { width: 20px; height: 22px;}
   border-top-left-radius: 0;
   color: white;
   font-weight: bold;
+  margin-left: -4px;
 }
 .glyus[type='submit']:hover {
     background: rgb(255, 165, 0);
-    text-shadow: 0 0 1px rgb(255, 165, 0);
+    border: 1px solid rgb(255, 165, 0);
 }
 
 .new {
