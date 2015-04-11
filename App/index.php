@@ -29,8 +29,8 @@
 <html ng-app="glyus" prefix="og: http://ogp.me/ns#">
     <head>
         <title>Gly a memorable URL shortener</title>
-    	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     
+    	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,7 +58,7 @@
             </h1>
             <form ng-submit="create()">
                 <input id="gly_text" class="glyus" type="text" ng-model="url" placeholder=" Simplify your URL" autofocus required>
-                <input type="submit" value="Go" />
+                <input type="submit" class="glyus" value="Go" />
             </form>
             <br />
             <!-- <span class="label label-info">New</span> -->
