@@ -14,10 +14,9 @@ angular.module('glyus', [])
                 }
   
 	            $scope.url = 'http://' + host + '/' + data.new;
-                $scope.clicks = data.clicks;
-                $scope.new = data.new;
-		        
-                getById('gly_text').select()
+              	    $scope.clicks = data.clicks;
+        	    $scope.new = data.new;
+	            getById('gly_text').select()
 	            getById('clicks_text').style.opacity = 1;
 	        }).
 	        error(function(data) {
