@@ -37,7 +37,7 @@
         <meta name="keywords" content="chiligarlic, gly, shortlink, simplify, linker, memorable, easy, shortener, simplifier, gyling">
         <meta name="description" content="Its just another URL shortener that's easy to remember with a little bit of fun. Enjoy Glying!">
         <meta name="author" content="chiligarlic">
-
+        <meta name="theme-color" content="#0097A7">
         <meta property="og:url" content="http://gly.us" />
         <meta property="og:title" content="Gly a memorable URL shortener" />
         <meta property="og:description" content="Its just another URL shortener that's easy to remember with a little bit of fun. Enjoy Glying!" />
