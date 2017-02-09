@@ -70,7 +70,7 @@
         </div>
         <a href="mailto:dev@chiligarlic.com">
             <!-- <span id="total_text">0</span> -->
-            <img src="http://chiligarlic.com/img/favicon.png" alt="ChiliGarlic">
+            <img src="http://chiligarlic.com/img/logo.png" alt="ChiliGarlic">
         </a>
 
         <!-- Latest compiled and minified JQuery -->
