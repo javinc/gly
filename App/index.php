@@ -29,6 +29,7 @@
 <html ng-app="glyus" prefix="og: http://ogp.me/ns#">
     <head>
         <title>Gly a memorable URL shortener</title>
+        <meta name="google-site-verification" content="eLE0nBxIdEtYALhwJRJKycapQLxww25wAEbq561jqWE" />
     
     	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
         <meta charset="utf-8">
